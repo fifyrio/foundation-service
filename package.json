@@ -1,0 +1,31 @@
+{
+  "name": "foundation-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "mysql2": "^2.3.3",
+    "jsonwebtoken": "^9.0.2",
+    "node-cloudflare-r2": "^0.2.3",
+    "express": "^4.19.2",
+    "uuid": "^9.0.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/express": "^4.17.21",
+    "@types/uuid": "^9.0.7",
+    "@types/jsonwebtoken": "^9.0.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/aiapps1/nodejs_foundation_service/foundation-service.git" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
